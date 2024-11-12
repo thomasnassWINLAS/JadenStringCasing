@@ -9,4 +9,10 @@ public class UnitTest1
     {
         Assert.Equal("Hej", ToJadenCase("hej"));
     }
+    
+    [Fact(DisplayName = "ToJadenCase should capitalize first letter of multiple words")]
+    public void ToJadenCase_CapitalizesFirstOfMultipleWords()
+    {
+        Assert.Equal("Hej Där", ToJadenCase("hej där"));
+    }
 }
