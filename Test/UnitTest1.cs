@@ -4,10 +4,9 @@ namespace Test;
 
 public class UnitTest1
 {
-    [Fact(DisplayName = "ToJadenCase should return a string")]
-    public void ToJadenCase_ReturnsString()
+    [Fact(DisplayName = "ToJadenCase should capitalize first letter")]
+    public void ToJadenCase_CapitalizesFirstLetter()
     {
-        Assert.Equal("hej", ToJadenCase("hej"));
+        Assert.Equal("Hej", ToJadenCase("hej"));
     }
-    
 }
