@@ -15,4 +15,4 @@ Capitalize every word 🤙
 1. ~~returns _a_ string[]~~ 
 2. ~~single letter~~
 3. ~~single word~~
-4. several words
+4. ~~several words~~
